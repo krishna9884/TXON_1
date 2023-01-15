@@ -37,7 +37,7 @@ section{
 }
 
 #hero {
-    background-image: url('/images/bg2.jpg');
+    background-image: url('images/bg2.jpg');
     background-size: cover;
     background-color: transparent;
     height: 100vh;
@@ -84,7 +84,7 @@ section{
 
 /* Classes Section */
 #classes {
-    background-image: url("/images/bg3.jpg");
+    background-image: url("images/bg3.jpg");
     background-size: cover;
     /* background: transparent; */
     font-size: 1.5em;
