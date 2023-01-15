@@ -6,97 +6,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Document</title>
+    <title>Gym Landing Page</title>
 </head>
 
 <body>
     <div class="navbar">
-        <a href="#"><img src="images/logo.png" alt="" class="logo"></a>
+        <a href="#"><img src="images/logo.png" alt=""></a>
         <ul>
-            <li href="#"><a href="#">Home</a></li>
-            <li href="#"><a href="#">About</a></li>
-    
-            <li href="#"><a href="#">Contact</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
         </ul>
     </div>
 
-    <div class="img-container">
-        <img class="imgg" src="images/bg2.jpg" alt="Image">
-        <div class="img-text">
-            <h1>Welcome to our <span>Gym</span></h1>
-            <p>We offer a variety of classes and equipment <br> to help you reach your fitness goals.</p>
-            <a class="learn" href="#">Learn more</a><br><br>
+    <section id="hero">
+        <h1>Welcome to Our Gym</h1>
+        <p>We offer a variety of fitness classes and equipment for all levels.</p>
+        <a href="#about" class="cta">Learn More</a>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Our gym is dedicated to helping our members achieve their fitness goals. We offer a wide range of classes,
+            including yoga, Pilates, cardio, and strength training. Our state-of-the-art equipment and experienced
+            trainers will help you reach your full potential.</p>
+    </section>
+    <section id="classes">
+        <h2>Classes</h2>
+        <ul>
+            <li><img src="images/yoga.png"> <br> Yoga </li>
+            <li><img src="images/cardio.png"> <br>Cardio </li>
+            <li><img src="images/dumbell.png"> <br>Strength</li>
+            <li><img src="images/cycling.png"> <br>Cycling </li>
+        </ul>
+        <a href="#schedule" class="cta">View Class Schedule</a>
+    </section>
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <p>We offer a variety of membership options to fit your needs and budget. Contact us for more information and to
+            schedule a tour of our facility.</p>
+    </section>
+    <section id="location">
+        <div>
+            <h2>Location</h2>
+            <p>Our gym is located at 123 Main St, Anytown USA.</p>
         </div>
-      </div>
-      
-    <div class="welcome">
-        <h1>Empowering fitness for a stronger you</h1>
-        <p>Transform your body and mind at our state-of-the-art gym,<br> where top-notch equipment and expert guidance come together to help you reach your fitness goals.</p>
-        <!-- <a class="learn" href="#">Learn more</a><br><br> -->
-        <img src="images/gyme.png" alt="">
-    </div>
-
-    <h2 class="infoTitle">Prices</h2>
-    <div class="prices">
-        <div class="price">
-            <p class="li">Basic <br>
-                Rs 800/m</p>
-            <p >Cardio <br>Weights <br>No trainer</p>
-        </div>
-        <div class="price">
-            <p class="li">Silver<br>Rs 1000/m</p>
-            <p >Cardio <br>Weights <br>Trainer</p>
-         
-        </div>
-        <div class="price">
-            <p class="li">Gold<br>Rs 1200/m</p>
-            <p >Cardio & weights <br>Trainer<br>Sauna</p>
-        </div>
-    </div>
-    <h2 class="infoTitle">Timing <br> 6am to 10pm</h2>
-
-    <div class="formdiv">
-        <form>
-            <p>Apply here</p>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name"><br><br>
-          
-            <label for="gender">Gender:</label>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label><br><br>
-          
-            <label for="plan">Plan:</label>
-            <select id="plan" name="plan">
-              <option value="basic">Basic</option>
-              <option value="silver">Silver</option>
-              <option value="gold">Gold</option>
-            </select><br><br>
-          
-            <input type="submit" value="Submit">
-          </form>
-          
-    </div>
-
-    <div id="footer">
-        <p>Copyright 2023 My Project, Inc. All rights reserved.</p>
-        <p>
-            Links:
-            <a href="#">About</a> |
-            <a href="#">Contact</a> |
-            <a href="#">Privacy Policy</a>
-        </p>
-        <p>
-            Contact:
-            <a href="mailto:info@myproject.com">Email</a> |
-            Phone: 555-555-1212 |
-        </p>
-        <p>
-            Credits:
-            Design by <a href="#">Krishna Shirsalkar</a>
-        </p>
-    </div>
+        <!-- <img width=100% src="https://www.droid-life.com/wp-content/uploads/2020/09/Google-Maps-Dark-Theme-980x624.jpg" alt=""> -->
+        <img  src="images/map.jpg" alt="">
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: 555-555-5555</p>
+        <p>Email: info@gym.com</p>
+    </section>
+    <footer>
+        <p>Copyright ©2022 Gym Inc.</p>
+    </footer>
 </body>
 
 </html>
